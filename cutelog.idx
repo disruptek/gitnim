@@ -1,0 +1,11 @@
+CuteLogger	cutelog.html#CuteLogger	cutelog: CuteLogger	
+CuteLoggerPrefixer	cutelog.html#CuteLoggerPrefixer	cutelog: CuteLoggerPrefixer	
+CuteLoggerPainter	cutelog.html#CuteLoggerPainter	cutelog: CuteLoggerPainter	
+CutePalette	cutelog.html#CutePalette	cutelog: CutePalette	
+CuteConsoleLogger	cutelog.html#CuteConsoleLogger	cutelog: CuteConsoleLogger	
+log	cutelog.html#log.e,CuteLogger,Level,varargs[string,]	cutelog: log(logger: CuteLogger; level: Level; args: varargs[string, `$`])	
+painter	cutelog.html#painter,Level	cutelog: painter(level: Level): CutePalette	
+log	cutelog.html#log.e,CuteConsoleLogger,Level,varargs[string,]	cutelog: log(logger: CuteConsoleLogger; level: Level; args: varargs[string, `$`])	
+newCuteLogger	cutelog.html#newCuteLogger,ConsoleLogger	cutelog: newCuteLogger(console: ConsoleLogger): CuteLogger	
+newCuteConsoleLogger	cutelog.html#newCuteConsoleLogger,CuteLoggerPrefixer,CuteLoggerPainter,string	cutelog: newCuteConsoleLogger(prefixer: CuteLoggerPrefixer; painter: CuteLoggerPainter;\n                     levelThreshold = lvlAll; fmtStr = &quot;&quot;; useStderr = true): CuteConsoleLogger	
+newCuteConsoleLogger	cutelog.html#newCuteConsoleLogger,string	cutelog: newCuteConsoleLogger(levelThreshold = lvlAll; fmtStr = &quot;&quot;; useStderr = true): CuteConsoleLogger	
